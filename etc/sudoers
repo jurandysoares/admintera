@@ -4,7 +4,7 @@ Defaults	env_reset
 Defaults	mail_badpass
 Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 Cmnd_Alias LXC = /usr/bin/lxc-ls, /usr/bin/lxc-start, /usr/bin/lxc-stop, /usr/bin/lxc-info
-Cmnd_Alias LOG = /usr/bin/tail -f /var/log/syslog
+Cmnd_Alias LOG = /usr/bin/tail -f /var/log/syslog, /usr/bin/tail -f /var/log/auth.log
 root	ALL=(ALL:ALL) ALL
 %admin ALL=(ALL) ALL
 %sudo	ALL=(ALL:ALL) ALL
