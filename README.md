@@ -1,2 +1,0 @@
-# admintera
-Administração Terapêutica
