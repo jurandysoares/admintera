@@ -1,6 +1,8 @@
 # LXD
 
 ## Configuração inicial
+Referência: https://bayton.org/2016/05/lxd-zfs-and-bridged-networking-on-ubuntu-16-04-lts/
+
 `sudo lxd init`
 
 Saída:
